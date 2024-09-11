@@ -1,7 +1,5 @@
+import { TemplatesManager } from "./feature/TemplatesManager";
+
 export default function Page() {
-  return (
-    <div>
-      <p>dashboard</p>
-    </div>
-  );
+  return <TemplatesManager />;
 }
